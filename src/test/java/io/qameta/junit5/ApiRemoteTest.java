@@ -16,7 +16,7 @@ public class ApiRemoteTest {
         RestAssured.baseURI = "http://51.250.6.164:8080/";
     }
 
-    @Test  //homework11
+    @Test  
     public void createOrderWithoutHeaderAndCheckStatusCodePost(){
         RandomOrder randomOrder = new RandomOrder();
         Gson gson = new Gson();
